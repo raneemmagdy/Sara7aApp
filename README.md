@@ -10,17 +10,17 @@
 
 ## 🔖 Table of Contents
 
-- [Features](##features)
-- [Technologies](##technologies)
-- [Setup Instructions](##setup-instructions)
-- [Available Scripts](##available-scripts)
-- [API Endpoints](##api-endpoints)
-- [Environment Variables](##environment-variables)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Setup Instructions](#setup-instructions)
+- [Available Scripts](#available-scripts)
+- [API Endpoints](#api-endpoints)
+- [Environment Variables](#environment-variables)
 
 
 ---
 
-## ✨ Features
+## ✨ Features {#features}
 - User authentication (sign-up, sign-in)
 - Email confirmation for new accounts
 - Profile management with phone number encryption and decryption
@@ -35,7 +35,7 @@
   
 ---
 
-## 🛠️ Technologies
+## 🛠️ Technologies {#technologies}
 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
@@ -47,7 +47,7 @@
 
 ---
 
-## 🧑‍💻 Setup Instructions
+## 🧑‍💻 Setup Instructions {#setup-instructions}
 
 1. Clone the repository:
 
@@ -90,14 +90,14 @@
 
 ---
 
-## 🏃 Available Scripts
+## 🏃 Available Scripts {#available-scripts}
 
 - `npm run dev`: Start the application in development mode.
 - `npm start`: Start the application in production mode.
 
 ---
 
-##  API Endpoints
+##  API Endpoints {#api-endpoints}
 
 ### 💬 Message Routes
 
@@ -119,7 +119,7 @@ For detailed request and response formats, refer to the [API Documentation on Po
 
 ---
 
-## 🌍 Environment Variables
+## 🌍 Environment Variables {#environment-variables}
 
 | Variable             | Description                                      |
 | -------------------- | ------------------------------------------------ |
