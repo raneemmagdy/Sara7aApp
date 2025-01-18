@@ -20,7 +20,7 @@
 
 ---
 
-## ✨ Features {#features}
+## ✨ Features{#features}
 - User authentication (sign-up, sign-in)
 - Email confirmation for new accounts
 - Profile management with phone number encryption and decryption
