@@ -91,7 +91,7 @@
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### 📨 Message Routes
 
