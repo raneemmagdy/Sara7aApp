@@ -10,17 +10,17 @@
 
 ## 🔖 Table of Contents
 
-- [Features](#features)
-- [Technologies](#technologies)
-- [Setup Instructions](#setup-instructions)
-- [Available Scripts](#available-scripts)
-- [API Endpoints](#api-endpoints)
-- [Environment Variables](#environment-variables)
+- [Features]
+- [Technologies]
+- [Setup Instructions]
+- [Available Scripts]
+- [API Endpoints]
+- [Environment Variables]
 
 
 ---
 
-## ✨ Features{#features}
+## ✨ Features 
 - User authentication (sign-up, sign-in)
 - Email confirmation for new accounts
 - Profile management with phone number encryption and decryption
@@ -35,7 +35,7 @@
   
 ---
 
-## 🛠️ Technologies {#technologies}
+## 🛠️ Technologies 
 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
@@ -47,7 +47,7 @@
 
 ---
 
-## 🧑‍💻 Setup Instructions {#setup-instructions}
+## 🧑‍💻 Setup Instructions 
 
 1. Clone the repository:
 
@@ -90,14 +90,14 @@
 
 ---
 
-## 🏃 Available Scripts {#available-scripts}
+## 🏃 Available Scripts 
 
 - `npm run dev`: Start the application in development mode.
 - `npm start`: Start the application in production mode.
 
 ---
 
-##  API Endpoints {#api-endpoints}
+##  API Endpoints 
 
 ### 💬 Message Routes
 
@@ -119,7 +119,7 @@ For detailed request and response formats, refer to the [API Documentation on Po
 
 ---
 
-## 🌍 Environment Variables {#environment-variables}
+## 🌍 Environment Variables 
 
 | Variable             | Description                                      |
 | -------------------- | ------------------------------------------------ |
@@ -130,7 +130,7 @@ For detailed request and response formats, refer to the [API Documentation on Po
 | `CONFIRM_SECRET_KEY` | Secret key for email confirmation tokens.        |
 | `SALT_NUMBER`        | Salt rounds for hashing passwords.               |
 | `PHONE_SECRET_KEY`   | Secret key for phone number encryption.          |
-| `EMAIL_FOR_SEND`    | The email address used for sending notifications. |
-| `PASSWORD_FOR_SEND` | The application key for the email account.        |
+| `EMAIL_FOR_SEND`     | The email address used for sending notifications.|
+| `PASSWORD_FOR_SEND`  | The application key for the email account.       |
 
 
