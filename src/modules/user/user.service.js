@@ -13,7 +13,7 @@ export const signUp=async(req,res,next)=>{
     const encryptPhone=await modules.Encrypt({phone,PHONE_SECRET_KEY:process.env.PHONE_SECRET_KEY})
     eventEmitter.emit('sendEmail',{email,name,req})
     const user= await userModel.create({name,email,password:hashedPassword,phone:encryptPhone,gender,role})
-    return res.status(201).json({msg:'User Added Successfully',user})
+    return res.status(201).json({message:'User Added Successfully',user})
    
 }
 
@@ -39,7 +39,7 @@ export const confirmEmail=async(req,res,next)=>{
       if(user.confirmed){
          return next(new Error('Account already confirmed ', { cause: 400 }));
       }
-      return res.status(200).json({msg:'User Confirmed Successfully'})
+      return res.status(200).json({message:'User Confirmed Successfully'})
    
 }
 //------------------------signIn
@@ -61,7 +61,7 @@ export const signIn=async(req,res,next)=>{
      }
      const token= await modules.generateToken({payload:{email},JWT_SECRET:user.role==='user'?process.env.JWT_SECRET_USER:process.env.JWT_SECRET_ADMIN,option:{expiresIn:'1h'}})
     
-     return res.status(201).json({msg:'User loged in',user,token})
+     return res.status(200).json({message:'User loged in',user,token})
     
 }
 
@@ -77,7 +77,7 @@ export const signIn=async(req,res,next)=>{
      user.phone=decryptPhone
      if (!decryptPhone) {
       return next(new Error('Invalid phone number decryption.', { cause: 400 })); }
-     return res.status(201).json({user})
+     return res.status(200).json({message:'Done',user})
    
  }
 

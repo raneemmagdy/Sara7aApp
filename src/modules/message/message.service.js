@@ -16,7 +16,7 @@ export const sendMessage=async(req,res,next)=>{
 export const getAllMessage=async(req,res,next)=>{
     
     const messages=await messageModel.find({userId:req.user._id}).populate('userId','name email phone' )
-    return   res.status(201).json({msg:'Done',messages})
+    return   res.status(200).json({message:'Done',messages})
 }
 //--------------------------------deleteMessage
 
@@ -32,7 +32,7 @@ export const deleteMessage=async (req, res, next) => {
         return next(new Error('Message not found or you are not authorized to delete it.', { cause: 400 }));
     }
 
-    return res.status(200).json({ msg: 'Message deleted successfully.' });
+    return res.status(200).json({ message: 'Message deleted successfully.' });
 };
 //--------------------------------updateMessage
 
@@ -50,5 +50,5 @@ export const updateMessage=async (req, res, next) => {
         return next(new Error('Message not found or you are not authorized to update it.', { cause: 400 }));
     }
 
-    return res.status(200).json({ msg: 'Message updated successfully.', updatedMessage });
+    return res.status(200).json({ message: 'Message updated successfully.', updatedMessage });
 };
