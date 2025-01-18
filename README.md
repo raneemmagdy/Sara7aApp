@@ -20,7 +20,7 @@
 
 ---
 
-## ✨ Features
+#features ✨ Features
 
 - 🔒 User authentication (sign-up, sign-in)
 - 📧 Email confirmation for new accounts
@@ -38,6 +38,8 @@
 - **Authentication**: JWT (JSON Web Tokens)
 - **Validation**: Joi
 - **Deployment**: Vercel
+- **Hashing**: bcrypt
+- **Encryption**:crypto-js
 
 ---
 
