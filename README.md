@@ -3,32 +3,36 @@
 
 **Sara7a** is a simple, secure messaging application with authentication, profile management, and role-based access control.
 
-🌐 **[Live Application on Vercel](https://sara7a-app-nine.vercel.app/)**  
-📄 **[API Documentation on Postman](https://documenter.getpostman.com/view/26311189/2sAYJ7fyYU)**
+🚀 **[Live Application on Vercel](https://sara7a-app-nine.vercel.app/)**  
+🌐 **[API Documentation on Postman](https://documenter.getpostman.com/view/26311189/2sAYJ7fyYU)**
 
 ---
 
-## 🗂️ Table of Contents
+## 🔖 Table of Contents
 
-- [Features](#features)
-- [Technologies](#technologies)
-- [Setup Instructions](#setup-instructions)
-- [Available Scripts](#available-scripts)
-- [API Endpoints](#api-endpoints)
-- [Environment Variables](#environment-variables)
+- [Features](##features)
+- [Technologies](##technologies)
+- [Setup Instructions](##setup-instructions)
+- [Available Scripts](##available-scripts)
+- [API Endpoints](##api-endpoints)
+- [Environment Variables](##environment-variables)
 
 
 ---
 
-#features ✨ Features
-
-- 🔒 User authentication (sign-up, sign-in)
-- 📧 Email confirmation for new accounts
-- 👤 Profile management with phone number encryption
-- ❄️ Soft delete for user accounts (freeze account)
-- ✉️ Send, update, retrieve, and delete messages
-- 🔐 Role-based authorization (user/admin)
-
+## ✨ Features
+- User authentication (sign-up, sign-in)
+- Email confirmation for new accounts
+- Profile management with phone number encryption and decryption
+- Soft delete for user accounts (freeze account)
+- Send, update, retrieve, and delete messages
+- Role-based authorization (user/admin)
+- Password update with validation of old password
+- Message management (CRUD operations: create, read, update, delete)
+- Schema validation for user and message data
+- Secure JWT token-based authentication for session management
+- Phone number validation (Egyptian format) during sign-up and update
+  
 ---
 
 ## 🛠️ Technologies
@@ -95,14 +99,14 @@
 
 ##  API Endpoints
 
-### 📨 Message Routes
+### 💬 Message Routes
 
 - **POST /messages/**: Send a message.
 - **GET /messages/**: Retrieve all messages of the authenticated user.
 - **DELETE /messages/deleteMessage/:messageId**: Delete a message by ID.
 - **PATCH /messages/updateMessage/:messageId**: Update a message by ID.
 
-### 👤 User Routes
+### 🧑 User Routes
 
 - **POST /users/signup**: Register a new user.
 - **POST /users/signin**: Log in an existing user.
