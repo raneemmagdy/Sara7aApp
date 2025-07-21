@@ -3,8 +3,8 @@
 
 **Sara7a** is a simple, secure messaging application with authentication, profile management, and role-based access control.
 
-🚀 **[Live Application on Vercel](https://sara7a-app-nine.vercel.app/)**  
-🌐 **[API Documentation on Postman](https://documenter.getpostman.com/view/26311189/2sAYJ7fyYU)**
+**[Live Application on Vercel](https://sara7a-app-nine.vercel.app/)**  
+**[API Documentation on Postman](https://documenter.getpostman.com/view/26311189/2sAYJ7fyYU)**
 
 ---
 
@@ -20,7 +20,7 @@
 
 ---
 
-## ✨ Features 
+##  Features 
 - User authentication (sign-up, sign-in)
 - Email confirmation for new accounts
 - Profile management with phone number encryption and decryption
@@ -35,7 +35,7 @@
   
 ---
 
-## 🛠️ Technologies 
+##  Technologies 
 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
@@ -47,7 +47,7 @@
 
 ---
 
-## 🧑‍💻 Setup Instructions 
+##  Setup Instructions 
 
 1. Clone the repository:
 
@@ -90,7 +90,7 @@
 
 ---
 
-## 🏃 Available Scripts 
+##  Available Scripts 
 
 - `npm run dev`: Start the application in development mode.
 - `npm start`: Start the application in production mode.
@@ -106,7 +106,7 @@
 - **DELETE /messages/deleteMessage/:messageId**: Delete a message by ID.
 - **PATCH /messages/updateMessage/:messageId**: Update a message by ID.
 
-### 🧑 User Routes
+###  User Routes
 
 - **POST /users/signup**: Register a new user.
 - **POST /users/signin**: Log in an existing user.
@@ -119,7 +119,7 @@ For detailed request and response formats, refer to the [API Documentation on Po
 
 ---
 
-## 🌍 Environment Variables 
+##  Environment Variables 
 
 | Variable             | Description                                      |
 | -------------------- | ------------------------------------------------ |
